@@ -31,7 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<deploymentType>cloudhub2</deploymentType>
-					<cloudHub2Deployment>
+					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>${username}</username>
@@ -44,7 +44,7 @@
 						<properties>
 							<key>value</key>
 						</properties>
-					</cloudHub2Deployment>
+					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
 		</plugins>
